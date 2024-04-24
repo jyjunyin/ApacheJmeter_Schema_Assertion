@@ -16,7 +16,7 @@ a ApacheJmeter assertion plugin to validate JSON/YAML Schema (Based on Sampler r
 > [Java JDK](https://adoptopenjdk.net/) is required.
 
 ```shell
-git clone git@github.com:yeshan333/ApacheJmeter_Schema_Assertion.git
+git clone git@github.com:jyjunyin/ApacheJmeter_Schema_Assertion.git
 
 cd ApacheJmeter_Schema_Assertion/examples
 
@@ -25,12 +25,12 @@ chmod +x jmeter_installer.sh
 # install ApacheJmeter
 ./jmeter_installer.sh
 
-./apache-jmeter-5.5/bin/jmeter -t Schema_Assertion_5.5.jmx
+./apache-jmeter-5.6.2/bin/jmeter -t Schema_Assertion_5.6.2.jmx
 ```
 
-![Assertion Settings](https://cdn.jsdelivr.net/gh/yeshan333/jsDelivrCDN@main/20220115114549.jpg)
+![Assertion Settings](../ApacheJmeter_Schema_Assertion/Assertion_Settings.png)
 
-![Assertion Results](https://cdn.jsdelivr.net/gh/yeshan333/jsDelivrCDN@main/20220115114624.jpg)
+![Assertion Results](../ApacheJmeter_Schema_Assertion/Assertion_Results.png)
 
 ## Running Tests
 
@@ -43,7 +43,7 @@ mvn clean test
 ```
 
 ## Clean maven & build *.jar lib
-```
+```bash
 mvn clean package
 ```
 ## License
