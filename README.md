@@ -42,6 +42,10 @@ To run tests, run the following command:
 mvn clean test
 ```
 
+## Clean maven & build *.jar lib
+```
+mvn clean package
+```
 ## License
 
 Distributed under the MIT License. See [LICENSE](./LICENSE) for more information.
