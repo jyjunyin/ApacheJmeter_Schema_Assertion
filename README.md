@@ -28,9 +28,9 @@ chmod +x jmeter_installer.sh
 ./apache-jmeter-5.6.2/bin/jmeter -t Schema_Assertion_5.6.2.jmx
 ```
 
-![Assertion Settings](../ApacheJmeter_Schema_Assertion/Assertion_Settings.png)
+![Assertion Settings](https://github.com/jyjunyin/ApacheJmeter_Schema_Assertion/blob/main/Assertion_Settings.png)
 
-![Assertion Results](../ApacheJmeter_Schema_Assertion/Assertion_Results.png)
+![Assertion Results](https://github.com/jyjunyin/ApacheJmeter_Schema_Assertion/blob/main/Assertion_Results.png)
 
 ## Running Tests
 
